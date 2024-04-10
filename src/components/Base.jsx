@@ -1,9 +1,10 @@
 import React from 'react'
+import CustomNavbar from './CustomNavbar'
 
 function Base({children}) {
   return (
       <div className="container-fluid">
-          <h1>This is a header</h1>
+         <CustomNavbar/>
           {children}
           <h1>This is a footer</h1>
     </div>
