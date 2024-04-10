@@ -1,8 +1,9 @@
 import React from 'react'
+import Base from '../components/Base'
 
 function Home() {
   return (
-    <div>
+    <Base>
       <h1>This is a Home page</h1>
           <p>Welocme to the Home page</p>
           <div className="container">              
@@ -11,7 +12,7 @@ function Home() {
               </div>
             </div>
           </div>
-    </div>
+    </Base>
   )
 }
 
