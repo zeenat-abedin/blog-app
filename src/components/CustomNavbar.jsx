@@ -23,7 +23,7 @@ function CustomNavbar(args) {
 
   return (
     <div>
-      <Navbar {...args}>
+      <Navbar color='dark' dark expand='md' fixed="">
         <NavbarBrand href="/">reactstrap</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
