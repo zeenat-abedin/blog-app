@@ -15,7 +15,7 @@ import {
   NavbarText,
 } from 'reactstrap';
 
-function CustomNavbar(args) {
+function CustomNavbar() {
   
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,7 +24,7 @@ function CustomNavbar(args) {
   return (
     <div>
       <Navbar color='dark' dark expand='md' fixed="">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/">My Blogs</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
